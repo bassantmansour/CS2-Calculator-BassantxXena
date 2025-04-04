@@ -2,7 +2,7 @@
 #include <cstdlib>  // for rand, srand
 #include <ctime>    // for time
 #include <cmath>    // for abs
-#include "Calculator.h"
+#include "calculator.h"
 using namespace std;
 
 Calculator::Calculator() : r(false) {}
