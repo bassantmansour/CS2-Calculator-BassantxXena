@@ -1,3 +1,0 @@
-/home/bassant/CS2-Calculator-BassantxXena/mybuild/CMakeFiles/myproject.dir
-/home/bassant/CS2-Calculator-BassantxXena/mybuild/CMakeFiles/edit_cache.dir
-/home/bassant/CS2-Calculator-BassantxXena/mybuild/CMakeFiles/rebuild_cache.dir
