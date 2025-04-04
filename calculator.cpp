@@ -1,4 +1,7 @@
 #include <iostream>
+#include <cstdlib>  // for rand, srand
+#include <ctime>    // for time
+#include <cmath>    // for abs
 #include "Calculator.h"
 using namespace std;
 
@@ -15,12 +18,12 @@ double Calculator::divide(double a, double b) const {
     }
     return a / b;
 }
-long long Calculator::factorial(int n) const {
+long long Calculator::factorial(int n) {
     if (n < 0) {
         cout << "Number can't be negative" << endl;
         return 1;
     }
-    long result = 1;
+    long long result = 1;
     for (int i = 2; i <= n; ++i) {
         result *= i;
     }
@@ -60,5 +63,4 @@ int Calculator::random(int min, int max) {
     // Generate random number within range
     return min + rand() % (max - min + 1);
 }
-
 
