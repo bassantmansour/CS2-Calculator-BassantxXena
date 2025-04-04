@@ -11,7 +11,7 @@ public:
     double subtract(double a, double b) const;
     double multiply(double a, double b) const;
     double divide(double a, double b) const;
-    long long factorial(int n) const;
+    long long factorial(int n);
     int gcd(int a, int b) const;
     int lcm(int a, int b) const;
     int random(int min, int max);
